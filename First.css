@@ -1,0 +1,107 @@
+html {
+	background-color: #70ff8a;
+  	background: url(images/jura.jpg) no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+	font-family: Cursive, Tahoma, sans-serif;
+}
+body {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header {
+	margin: 0px;
+	padding: 20px;
+	color: #267326;
+}
+header h1 {
+	margin: 0px;
+	padding: 0px;
+}
+header p {
+	margin: 0px;
+	padding-bottom: 0px;
+	font-size: 120%;
+}
+.content-area {
+	border-top: 3px solid #b3e5b3;
+	border-bottom: 3px solid #b3e5b3;
+	overflow: auto;
+}
+.main-content {
+	width: 60%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+	font-size: 105%;
+}
+.sidebar {
+	width: 40%;
+	float: right;
+	padding: 20px 40px;
+	margin-bottom: 10px;
+	background-color: #b3e5b3;
+	box-sizing: border-box;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	font-size: 100%;
+}
+footer {
+	text-align: center;
+	padding: 20px 20px;
+	color: #999;
+}
+/* Navigation Style */
+.site-nav ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.site-nav li {
+	list-style: none;
+	display: inline;
+	padding: 20px 40px;
+	
+}
+.site-nav a {
+	display: inline-block;
+	text-decoration: none;
+	border: 3px solid #b3e5b3;
+	border-bottom: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 10px 20px;
+	color: black;
+}
+.site-nav a:hover {
+	background-color: #8cd98c;
+}
+/* End of Navigation Style */
+/* image styling */
+.images {
+	margin: 0px;
+	margin-top: 10px;
+	padding: 0px;
+	border: 3px solid #b3e5b3;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	overflow: auto;
+}
+.homepage-image {
+	float: right;
+	max-width: 100%;
+	height: auto;
+	box-sizing: border-box;
+	border: 3px solid #b3e5b3;
+}
+div > img {
+	
+}
+/* end of image styling */
