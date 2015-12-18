@@ -5,7 +5,7 @@ html {
   	-moz-background-size: cover;
  	-o-background-size: cover;
  	background-size: cover;
-	font-family: Cursive, Tahoma, sans-serif;
+	font-family: 'Open Sans', Tahoma, sans-serif;
 }
 body {
 	max-width: 960px;
@@ -22,12 +22,12 @@ header {
 	color: #267326;
 }
 header h1 {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 header p {
-	margin: 0px;
-	padding-bottom: 0px;
+	margin: 0;
+	padding-bottom: 0;
 	font-size: 120%;
 }
 .content-area {
@@ -60,35 +60,40 @@ footer {
 }
 /* Navigation Style */
 .site-nav ul {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding-bottom: 0;
+	padding-left: 0px;
 }
 .site-nav li {
 	list-style: none;
 	display: inline;
-	padding: 20px 40px;
-	
+	padding: 20px 9px;
 }
 .site-nav a {
 	display: inline-block;
 	text-decoration: none;
 	border: 3px solid #b3e5b3;
-	border-bottom: 0px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	padding: 10px 20px;
+	border-radius: 8px 5px 8px 5px;
+	background-color: #8cd98c;
+	padding: 10px 10px;
+	text-shadow: 2px 2px 2px #999966;
 	color: black;
 }
 .site-nav a:hover {
-	background-color: #8cd98c;
+	background: radial-gradient(#d9f2d9, #8cd98c);
+}
+.rotate {
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Safari */
+    transform: rotate(3deg);
 }
 /* End of Navigation Style */
 /* image styling */
 .images {
-	margin: 0px;
+	margin: 0;
 	margin-top: 10px;
-	padding: 0px;
+	padding: 0;
 	border: 3px solid #b3e5b3;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
