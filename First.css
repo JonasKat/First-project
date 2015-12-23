@@ -125,11 +125,9 @@ footer {
 	.sidebar {
 		width: auto;
 		float: none;
-		}
-  }
-@media screen and (max-width: 800px) { 
+	}
    body {
-	max-width: 960px;
+	max-width: auto;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFF;
@@ -148,18 +146,19 @@ footer {
 /* Small screen */
 @media screen and (max-width: 360px) {
 	body {
-	max-width: 960px;
+	max-width: auto;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFF;
 	padding-left: 20px;
-	padding-right: 0px;
+	padding-right: 0;
 	}
 	.sidebar {
 		display: none;
 	}
 	.content-area {
 		text-align: center;	
+		padding-right: 0;
 	}
 	.site-nav li {
 	list-style: none;
@@ -171,9 +170,6 @@ footer {
 	}
 	article {
 		margin-top: 30px;
-	}
-	.content-area {
-		padding-left: 0px;
 	}
 	.images {
 		margin-bottom: 10px;
