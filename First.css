@@ -1,14 +1,7 @@
 html {
-	background-color: #70ff8a;
-  	background: url(images/jura.jpg) no-repeat center center fixed; 
- 	-webkit-background-size: cover;
-  	-moz-background-size: cover;
- 	-o-background-size: cover;
- 	background-size: cover;
 	font-family: 'Open Sans', Tahoma, sans-serif;
 }
 body {
-	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFF;
@@ -82,6 +75,13 @@ footer {
 }
 .site-nav a:hover {
 	background: radial-gradient(#d9f2d9, #8cd98c);
+	text-decoration: none;
+	color: black;
+}
+.site-nav a:visited {
+	background: radial-gradient(#d9f2d9, #8cd98c);
+	text-decoration: none;
+	color: black;
 }
 .rotate {
     -ms-transform: rotate(3deg); /* IE 9 */
@@ -113,14 +113,12 @@ footer {
 	  .main-content {
 		  font-size: 107%
 	  }
-  }
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
 	  .sidebar {
 		  font-size: 101%
 	  }
   }
 /* Tablet size */
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 768px) { 
    body {
 	max-width: auto;
 	margin-left: auto;
