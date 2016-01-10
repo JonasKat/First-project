@@ -1,20 +1,5 @@
-
-//Try out of Ajax
-$(document).ready(function(){
-    $(".ajax").on("click", function() {
-    $.get("data.txt", function( response ) {
-        console.log( response );
-        });
-    });	
-
-function printColors(colorPalettes){
-for(var palette in colorPalettes){
-console.log(colorPalettes[palette].title);
-console.log(colorPalettes[palette].colors[0]); //HEX color code
-}
-}
-// Form script
-	$(".btn").on("click", function (event) {
+$(document).ready(function () {
+	$(".button").on("click", function (event) {
         event.preventDefault();
 		var userName = $(this).closest("form").find(".userName").val();
 		var email = $(this).closest("form").find(".email").val();
@@ -31,8 +16,6 @@ console.log(colorPalettes[palette].colors[0]); //HEX color code
 			alert("Password must be filled out");
 			return false;
 		} 
-		$(".successful").fadeIn();
-        $(".form-background").slideDown();
+		$(".successful").show();
 	});	
-    // End of Form Script
 });

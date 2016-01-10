@@ -127,17 +127,20 @@ footer {
 	padding-left: 35px;
 	padding-right: 35px;
 	}
-	.main-content,
-	.sidebar {
+	.main-content {
 		width: auto;
 		float: none;
+        margin-bottom: 20px;
+        padding: 0;
 	}
+    .sidebar {
+        display: none;
+    }
 	.content-area article p {
 		text-align: center;
 		padding: 0;
 		margin-right: -40px;
 	}
-	
 	.site-nav li {
 	list-style: none;
 	display: inline-block;
@@ -165,6 +168,9 @@ footer {
 		padding: 0;
 		margin-right: -40px;
 	}
+    .main-content {
+        padding: 0;
+    }
 	.site-nav li {
 	list-style: none;
 	display: inline-block;
@@ -179,5 +185,71 @@ footer {
 	.images {
 		margin-bottom: 10px;
 	}
-}
+    .successful {
+	display: none;
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    }
+ }
 /* End of media querries */
+/* Styling Registration form */
+.form-background {
+    background: hsla(120, 49%, 44%, 0.62);
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    }
+.RegParagraph {
+    text-align: center;
+    padding: 40px 20px;
+}
+.successful {
+	display: none;
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="submit"]:focus {
+    -webkit-box-shadow: inset 0px -5px 27px -15px rgba(86,86,86,1);
+    -moz-box-shadow: inset 0px -5px 27px -15px rgba(86,86,86,1);
+    box-shadow: inset 0px -5px 27px -15px rgba(86,86,86,1);
+    border: 1px solid #228b22;
+}
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+form .btn-default {
+    width: 100%;
+    background:  #228b22;
+    padding: 10px 15px;
+    font-size: large;
+    text-shadow: none;
+    border: none;
+}
+form .btn-default:hover,
+form .btn-default:focus,
+form .btn-default:active:focus,
+form .btn-default:active:hover {
+    background: #228b22;
+}
+form .btn-default:focus,
+form .btn-default:active:focus {
+    border: #228b22;
+}
+/* End of styling registration form */
