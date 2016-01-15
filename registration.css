@@ -246,10 +246,9 @@ form .btn-default:hover,
 form .btn-default:focus,
 form .btn-default:active:focus,
 form .btn-default:active:hover {
-    background: #228b22;
+    background: #196819;
 }
-form .btn-default:focus,
-form .btn-default:active:focus {
+form .btn-default:focus {
     border: #228b22;
 }
 /* End of styling registration form */
